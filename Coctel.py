@@ -21,13 +21,13 @@ class Coctel:
     
     @precio.setter
     def precio(self, dato):
-        self.precio=dato
+        self.__precio=dato
         
     @property
     def cantidad(self):
         return self.__cantidad
     
-    @nombre.setter
+    @cantidad.setter
     def cantidad(self, dato):
         self.__cantidad=dato
     
@@ -36,14 +36,14 @@ class Coctel:
         return self.__grados
     
     @grados.setter
-    def nombre(self, dato):
+    def grados(self, dato):
         self.__grados=dato
         
     @property
     def tipoCoctel(self):
         return self.__tipoCoctel
     
-    @grados.setter
+    @tipoCoctel.setter
     def tipoCoctel(self, dato):
         self.__tipoCoctel=dato
         
@@ -51,7 +51,7 @@ class Coctel:
     def anejamiento(self):
         return self.__anejamiento
     
-    @nombre.setter
+    @anejamiento.setter
     def anejamiento(self, dato):
         self.__anejamiento=dato
         

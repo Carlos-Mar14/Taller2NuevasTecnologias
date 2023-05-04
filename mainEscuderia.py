@@ -5,7 +5,7 @@ escuderias=[]
 numeroEscuderia=0
 
 while(numeroEscuderia<2):
-    escuderia=Escuderia()
+    escuderia = Escuderia()
     escuderia.nombre=input("Digite el nombre de la escuderia: ")
     escuderia.motor=input("Digite el motor de la escuderia: ")
     escuderia.piloto1=input("Digita el nombre del primer piloto: ")
